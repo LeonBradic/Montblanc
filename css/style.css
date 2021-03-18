@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #060507;
+    font-family: 'Montserrat';
+    display: flex;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin: 46px;
+    display: block;
+}
+
+.frame {
+    width: 1642px;
+    height: 1174;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 70px 124px;
+    z-index: -5;
+    background-color: #060507;
+}
+
+.navbarLeft {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Montblanc {
+    margin: 45px 65px;
+    margin-right: 75px;
+}
+
+.navbar {
+    padding-top: 70px;
+    display: flex;
+}
+
+.navbar img {
+    margin: 0;
+    margin-right: 70px;
+}
+
+.frame header {
+    margin: 0;
+    display: flex;
+}
+
+.gold img {
+    border-top-right-radius: 20px;
+    z-index: -4;
+    float: right;
+    margin-top: -135px;
+    width: 500px;
+}
+
+.left {
+
+    display: flex;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+}
+
+.motorcycle {
+    width: 1000px;
+}
+
+.montblancMotorcycle {
+    margin-left: -11%;
+    margin-bottom: 27.5%;
+    padding-right: 10px;
+}
+
+.midbottom {
+    display: flex;
+    margin-top: -130px;
+}
+
+.japanese {
+    width: 1325px;
+}
+
+.bottom {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    width: 1500px;
+}
+
+.bottom img {
+    padding-right: 50px;
+}
+
+.progress {
+    margin-left: -280px;
+    margin-right: 90px;
+}
+
+.bottom p {
+    color: #fff;
+    width: 406px;
+    font-size: 12px;
+    line-height: 24px;
+    padding-right: 75px;
+}
+
+.tank {
+    margin-bottom: -10px;
+}
+
+.right {
+    float: right;
+    display: flex;
+}
+
+.gold2 {
+    width: 1920px;
+    margin-top: -910px;
+    margin-left: -250px;
+    position: relative;
+    z-index: -6;
+    height: 1000px;
+    transform: scale(-1, -1);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-top: -49%;
+    margin-right: 10px;
+    width: 250px;
+    height: 90px;
+    position: relative;
+}
+
+.right img {
+    padding: 10px 15px 45px 10px;
+    background-color: #060507;
+    z-index: 1;
+    margin-right: -2px;
+    margin-left: -25px;
+    position: relative;
+}
+
+.Montblanc:hover {
+    cursor: pointer;
+}
+
+.navbar img:hover {
+    cursor: pointer;
+}
+
+.two, .ten {
+    cursor: pointer;
+}
+
+.rectangleTab, .addToCartTab {
+    display: none;
+}
+
+@media only screen and (min-width: 1025px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    @media only screen and (min-width: 415px) {
+        .logo, .gold, .montblancMotorcycle, .tank, .gold2, .bottom img, .midParagraph, .bottomParagraph, .mobile img{
+            display: none;
+        }
+
+        .desktop {
+            max-width: 1024px;
+            overflow-x: hidden;
+        }
+
+        .frame {
+            margin: 0;
+            border: none;
+        }
+
+        .montblanc {
+            margin: 50 50;
+        }
+
+        .navbar img {
+            margin-right: 60px;
+        }
+
+        .right {
+            float: left;
+            margin: 0;
+            margin-left: 30px;
+            flex-direction: row;
+            width: 100%;
+        }   
+
+        .right img {
+            width: 280px;
+            height: 120px
+        }
+
+        .bottom p {
+            width: 600px;
+            font-size: 13.5px;
+            line-height: 28px;
+            margin-bottom: -31%;
+        }
+
+        .rectangleTab {
+            display: flex;
+            margin-left: 690px;
+            margin-top: -77px;
+        }
+
+        .addToCartTab {
+            display: flex;
+            margin-left: 740px;
+            margin-top: -44px;
+        }
+    } 
+}
+
+@media only screen and (max-width: 414px) {
+    .desktop {
+        display: none;
+        font-family: 'Montserrat';
+    }
+
+    .mobile {
+        max-width: 415px;
+        overflow-x: hidden;
+        min-height: 1675px;
+    }
+
+    .mobileHeader {
+        display: flex;
+        margin-top: 25px;
+        margin-left: 75px;
+    }
+
+    .bikeLogo {
+        max-width: 415px;
+        margin-top: 25px;
+    }
+
+    .bikePicture {
+        display: flex;
+        max-width: 415px;
+    }
+
+    .shadowBlock {
+        margin-top: -30%;
+        color: #fff;
+    }
+
+    .bikeLogoMobile {
+        margin-top: -42%;
+        margin-left: 125px;
+    }
+
+    .midParagraph {
+        margin-top: 60px;
+        margin-left: 35px;
+    }
+
+    .midParagraph img {
+        max-width: 90%;
+    }
+
+    .midParagraph p {
+        margin-top: 30px;
+    }
+
+    .midBottomMobile img {
+        max-width: 415px;
+    }
+
+    .japaneseMobile {
+        max-width: 1050px;
+        margin-top: -75px;
+        margin-left: -150px;
+        overflow: hidden;
+    }
+
+    .bikeStats {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .bikeStats img {
+        min-width: 240px;
+        height: 100px;
+    }
+    
+    .progressBarMobile {
+        width: 325px;
+        margin-left: 45px;
+        margin-top: 25px;
+    }
+
+    .progressBarMobile:hover {
+        cursor: pointer;
+    }
+
+    p {
+        color: #fff;
+        max-width: 90%;
+        font-size: 8.75px;
+        font-family: 'Montserrat';
+        line-height: 200%;
+        text-align: justify;
+    }
+
+    .bottomParagraph {
+        margin-left: 50px;
+        margin-top: 20px;
+        max-width: 77%;
+    }
+
+    .heartborder {
+        margin-top: 10px;
+        margin-left: 50px;
+        height: 50px;
+    }
+
+    .heartborder:hover {
+        cursor: pointer;
+    }
+
+    .heart {
+        margin-left: -35px;
+        margin-bottom: 20px;
+        height: 10px;
+    }
+
+    .rectangleMobile {
+        height: 50px;
+        margin-left: 90px;
+    }
+
+    .rectangleMobile:hover {
+        cursor: pointer;
+    }
+
+    .addToCart {
+        margin-top: -33px;
+        margin-left: 210px;
+        max-width: 125px;
+    }
+
+    .shadowBlockMobile {
+        transform: rotate(270deg);
+        margin-top: -290px;
+        height: 30px;
+        margin-left: 355px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mobileHeader {
+        margin-left: 50px;
+    }
+
+    .bikeLogo {
+        max-width: 375px;
+    }
+
+    .bikeLogoMobile {
+        margin-left: 100px;
+    }
+
+    .midBottomMobile img {
+        max-width: 375px;
+    }
+
+    .japaneseMobile {
+        max-width: 1000px;
+        margin-left: -150px;
+    }
+
+    .bikeStats {
+        margin-left: 50px;
+    }
+
+    .bikeStats img {
+        min-width: 215px;
+        height: 100px;
+    }
+    
+    .progressBarMobile {
+        width: 300px;
+        margin-left: 45px;
+    }
+
+    .rectangleMobile {
+        margin-left: 60px;
+    }
+
+    .addToCart {
+        margin-left: 180px;
+    }
+
+    .shadowBlockMobile {
+        margin-left: 320px;
+    }
+
+    .mobile {
+        min-height: 1700px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .bikeStats img {
+        min-width: 205px;
+        height: 90px;
+    }
+
+    .progressBarMobile {
+        width: 270px;
+    }
+
+    .bottomParagraph {
+        max-width: 73%;
+    }
+
+    .rectangleMobile {
+        height: 50px;
+        margin-left: 80px;
+        width: 150px;
+    }
+
+    .addToCart {
+        margin-left: 190px;
+        max-width: 100px;
+    }
+
+    .shadowBlockMobile {
+        margin-left: 310px;
+    }
+}
